@@ -1,2 +1,31 @@
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
 
-/* Your CSS Code here. */
+th, td{
+	border: 1px solid black;
+	padding: 8px
+}
+th{
+	text-align:left;
+	background-color: #bf504d;
+	color: white;
+}
+
+td{
+	text-align: right;
+}
+td:first-child {
+	text-align: left;
+}
+tr:first-child{
+	color: white;
+	background-color: #d99693;
+}
+tr:nth-child(2){
+	background-color:#f2dbda;
+}
+tr:nth-child(3){
+	background-color:#d9d9d9;
+}
